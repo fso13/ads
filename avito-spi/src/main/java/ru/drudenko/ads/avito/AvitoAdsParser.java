@@ -6,8 +6,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.TextNode;
 import org.jsoup.select.Elements;
 import ru.drudenko.ads.api.Ads;
-import ru.drudenko.ads.spi.AdsParser;
 import ru.drudenko.ads.api.AdsParserName;
+import ru.drudenko.ads.spi.AdsParser;
 
 import java.io.IOException;
 import java.util.ArrayList;

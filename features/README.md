@@ -1,6 +1,7 @@
 ###### ads-features
 
 karaf 4.2.x
+
 ```
 repo-add cxf
 feature:repo-add mvn:ru.drudenko.ads/ads-api/1.0.1/xml/features
