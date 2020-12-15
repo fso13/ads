@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features name="${project.groupId}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
+    <repository>mvn:ru.drudenko.ads/ads-features/${features.version}/xml/features</repository>
+
+    <feature name='${project.artifactId}' version='${project.version}'>
+        <feature>ads-gemini-blueprint</feature>
+        <feature version="${ads-api.version}">ads-api</feature>
+        <feature version="${ads-spi.version}">ads-spi</feature>
+        <bundle>mvn:${project.groupId}/${project.artifactId}/${project.version}</bundle>
+    </feature>
+</features>
